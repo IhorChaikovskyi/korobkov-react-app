@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/korobkov-react-app/static/css/main.4fc09646.css",
+    "main.js": "/korobkov-react-app/static/js/main.215d2841.js",
+    "index.html": "/korobkov-react-app/index.html",
+    "main.4fc09646.css.map": "/korobkov-react-app/static/css/main.4fc09646.css.map",
+    "main.215d2841.js.map": "/korobkov-react-app/static/js/main.215d2841.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fc09646.css",
+    "static/js/main.215d2841.js"
+  ]
+}
