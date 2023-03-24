@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Gilory;
+  src: url(../../fonts/Gilroy-Regular.eot);
+}
+
+.navigation {
+
+}
+
+.list{
+  list-style: none;
+}
+
+.list__item-link {
+  color: black;
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Gilory, sans-serif;
+  font-size: 25px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  @media (min-width:1024px) {
+    font-size: 35px;
+  }
+}

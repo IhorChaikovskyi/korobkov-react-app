@@ -1,0 +1,13 @@
+.main {
+  transition: 0.5s;
+}
+
+.container-wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+
+  @media (min-width: 1024) {
+    padding: 40px;
+  }
+}

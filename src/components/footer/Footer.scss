@@ -1,0 +1,11 @@
+.footer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  @media (min-width:1024px) {
+    height: 100px;
+  }
+}
