@@ -5,8 +5,11 @@
 .container-wrap {
   max-width: 1024px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0;
 
+  @media (min-width: 768px) {
+    padding: 40px;
+  }
   @media (min-width: 1024) {
     padding: 40px;
   }

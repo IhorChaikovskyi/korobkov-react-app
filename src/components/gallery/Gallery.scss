@@ -5,15 +5,12 @@
 
   &__item {
     justify-self: center;
-    &:hover {
-      // transform: rotate(90deg);
-    }
   }
 }
 
 .img {
   height: 400px;
-  width: 300px;
+  width: 100vw;
   object-fit: contain;
   object-position: center;
   margin: 20px;
