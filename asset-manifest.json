@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/korobkov-react-app/static/css/main.02c8187f.css",
-    "main.js": "/korobkov-react-app/static/js/main.6ffdd384.js",
+    "main.css": "/korobkov-react-app/static/css/main.df7817eb.css",
+    "main.js": "/korobkov-react-app/static/js/main.6ff8191b.js",
     "static/media/1.jpg": "/korobkov-react-app/static/media/1.d186275aa9b3a12aa1a5.jpg",
     "static/media/2.jpg": "/korobkov-react-app/static/media/2.8ea4cc4bf1f7e477cf11.jpg",
     "static/media/3.jpg": "/korobkov-react-app/static/media/3.4b15250c2655749cc4bb.jpg",
@@ -22,13 +22,14 @@
     "static/media/Gilroy-Regular.woff": "/korobkov-react-app/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
     "static/media/Gilroy-Bold.woff2": "/korobkov-react-app/static/media/Gilroy-Bold.ef7c40ff1efeaaa4c7c6.woff2",
     "static/media/Gilroy-Regular.woff2": "/korobkov-react-app/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
+    "static/media/svgkorb.svg": "/korobkov-react-app/static/media/svgkorb.28936113551eecfb2e58.svg",
     "static/media/logo.svg": "/korobkov-react-app/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/korobkov-react-app/index.html",
-    "main.02c8187f.css.map": "/korobkov-react-app/static/css/main.02c8187f.css.map",
-    "main.6ffdd384.js.map": "/korobkov-react-app/static/js/main.6ffdd384.js.map"
+    "main.df7817eb.css.map": "/korobkov-react-app/static/css/main.df7817eb.css.map",
+    "main.6ff8191b.js.map": "/korobkov-react-app/static/js/main.6ff8191b.js.map"
   },
   "entrypoints": [
-    "static/css/main.02c8187f.css",
-    "static/js/main.6ffdd384.js"
+    "static/css/main.df7817eb.css",
+    "static/js/main.6ff8191b.js"
   ]
 }
