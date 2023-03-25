@@ -1,7 +1,12 @@
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100vw, 1fr));
   grid-column-gap: 20px;
+
+  @media (min-width: 768px){
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  }
 
   &__item {
     justify-self: center;
@@ -9,7 +14,7 @@
 }
 
 .img {
-  height: 400px;
+  height: 500px;
   width: 100vw;
   object-fit: contain;
   object-position: center;
