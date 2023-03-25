@@ -8,21 +8,40 @@ export class Header extends React.Component< {},{} >  {
         <div className="header__wrap">
           <div className="header__img">
           </div>
-          <div className="header__menu-burger"
-            onClick={() => {
-              const nav = document.getElementById('navigation');
-              const main = document.getElementById('main')
-              if(nav) {
-                nav.hidden = false
-              }
-              if(main) {
-                main.hidden = true
-              }
-            }
+          <div className="menu-icon"   >
+            <input 
+              className="menu-icon__cheeckbox"
+              id="iconMenu"
+              type="checkbox" 
+
+              onChange={(e) => {
+                const nav = document.getElementById('navigation');
+                const main = document.getElementById('main');
               
-            }
-          >
-            {/* <a href="/" className="header__menu-burger-link"></a> */}
+                if(e.target.checked === true){
+                  if(nav) {
+                    nav.style.display = 'block'
+                  }
+                  if(main) {
+                    main.style.display = 'none'
+                  }
+                }
+                if(e.target.checked === false){
+                  if(nav) {
+                    nav.style.display = 'none'
+                  }
+                  if(main) {
+                    main.style.display = 'block'
+                  }
+            
+                }
+                
+              }}
+            />
+            <div>
+              <span></span>
+              <span></span>
+            </div>
           </div>
         </div>
       </header>

@@ -5,7 +5,7 @@ export class Navigation extends React.Component {
   render() {
     return (
       <div className="wrap-container">
-        <nav className="navigation" hidden id="navigation">
+        <nav className="navigation" id="navigation">
           <ul className="list">
             <li className="list__item">
               <a href="/" className="list__item-link">Work</a>
