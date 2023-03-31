@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/korobkov-react-app/static/css/main.df7817eb.css",
-    "main.js": "/korobkov-react-app/static/js/main.6ff8191b.js",
-    "static/media/1.jpg": "/korobkov-react-app/static/media/1.d186275aa9b3a12aa1a5.jpg",
-    "static/media/2.jpg": "/korobkov-react-app/static/media/2.8ea4cc4bf1f7e477cf11.jpg",
-    "static/media/3.jpg": "/korobkov-react-app/static/media/3.4b15250c2655749cc4bb.jpg",
+    "main.css": "/korobkov-react-app/static/css/main.32799bd8.css",
+    "main.js": "/korobkov-react-app/static/js/main.c5c000f9.js",
+    "static/media/1.jpg": "/korobkov-react-app/static/media/1.88c16270469e66f19576.jpg",
+    "static/media/6.jpg": "/korobkov-react-app/static/media/6.dc977c535908311444ff.jpg",
+    "static/media/2.jpg": "/korobkov-react-app/static/media/2.6fa84628b79ea5a0498f.jpg",
+    "static/media/5.jpg": "/korobkov-react-app/static/media/5.d7b2705dc26284a7d949.jpg",
     "static/media/4.jpg": "/korobkov-react-app/static/media/4.76b3ce6db6f0593de02b.jpg",
-    "static/media/12.jpg": "/korobkov-react-app/static/media/12.c68e88c21f4fab01fccf.jpg",
-    "static/media/11.jpg": "/korobkov-react-app/static/media/11.399d0e12f9d9b0dc05a1.jpg",
-    "static/media/5.jpg": "/korobkov-react-app/static/media/5.6464c8434fdf48785470.jpg",
-    "static/media/7.jpg": "/korobkov-react-app/static/media/7.bcd596afad888c4be631.jpg",
-    "static/media/9.jpg": "/korobkov-react-app/static/media/9.8da165805b8a7df3240e.jpg",
-    "static/media/10.jpg": "/korobkov-react-app/static/media/10.f1c0a844fa536e5cd1d8.jpg",
-    "static/media/8.jpg": "/korobkov-react-app/static/media/8.94a0ed6de737572f51fa.jpg",
+    "static/media/8.jpg": "/korobkov-react-app/static/media/8.aeec18506e8deb2090c8.jpg",
+    "static/media/10.jpg": "/korobkov-react-app/static/media/10.89523ee72392b1aaa99b.jpg",
+    "static/media/3.jpg": "/korobkov-react-app/static/media/3.78ce5cd29b5d0d6bd348.jpg",
+    "static/media/7.jpg": "/korobkov-react-app/static/media/7.529f74d4992732ed5839.jpg",
+    "static/media/11.jpg": "/korobkov-react-app/static/media/11.1266d0060e2ed551b593.jpg",
+    "static/media/12.jpg": "/korobkov-react-app/static/media/12.21ff416544f67881ef18.jpg",
+    "static/media/9.jpg": "/korobkov-react-app/static/media/9.b2686b25fb0911615f56.jpg",
     "static/media/Gilroy-Regular.eot": "/korobkov-react-app/static/media/Gilroy-Regular.19055ba082a9f78262f6.eot",
     "static/media/Gilroy-Regular.ttf": "/korobkov-react-app/static/media/Gilroy-Regular.fa652e766b6a85a1f9cb.ttf",
-    "static/media/6.jpg": "/korobkov-react-app/static/media/6.d1c4ccd76b484fadd319.jpg",
     "static/media/Gilroy-Bold.eot": "/korobkov-react-app/static/media/Gilroy-Bold.aa68c169bc1dc3db278e.eot",
     "static/media/Gilroy-Bold.ttf": "/korobkov-react-app/static/media/Gilroy-Bold.901a60fc2835c74fba67.ttf",
     "static/media/Gilroy-Bold.woff": "/korobkov-react-app/static/media/Gilroy-Bold.0607a1bc636f63251ed8.woff",
@@ -25,11 +25,11 @@
     "static/media/svgkorb.svg": "/korobkov-react-app/static/media/svgkorb.28936113551eecfb2e58.svg",
     "static/media/logo.svg": "/korobkov-react-app/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/korobkov-react-app/index.html",
-    "main.df7817eb.css.map": "/korobkov-react-app/static/css/main.df7817eb.css.map",
-    "main.6ff8191b.js.map": "/korobkov-react-app/static/js/main.6ff8191b.js.map"
+    "main.32799bd8.css.map": "/korobkov-react-app/static/css/main.32799bd8.css.map",
+    "main.c5c000f9.js.map": "/korobkov-react-app/static/js/main.c5c000f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.df7817eb.css",
-    "static/js/main.6ff8191b.js"
+    "static/css/main.32799bd8.css",
+    "static/js/main.c5c000f9.js"
   ]
 }
