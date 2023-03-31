@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/korobkov-react-app/static/css/main.32799bd8.css",
+    "main.css": "/korobkov-react-app/static/css/main.fc7440b7.css",
     "main.js": "/korobkov-react-app/static/js/main.c5c000f9.js",
     "static/media/1.jpg": "/korobkov-react-app/static/media/1.88c16270469e66f19576.jpg",
     "static/media/6.jpg": "/korobkov-react-app/static/media/6.dc977c535908311444ff.jpg",
@@ -25,11 +25,11 @@
     "static/media/svgkorb.svg": "/korobkov-react-app/static/media/svgkorb.28936113551eecfb2e58.svg",
     "static/media/logo.svg": "/korobkov-react-app/static/media/logo.6ce24c58023cc2f8fd88.svg",
     "index.html": "/korobkov-react-app/index.html",
-    "main.32799bd8.css.map": "/korobkov-react-app/static/css/main.32799bd8.css.map",
+    "main.fc7440b7.css.map": "/korobkov-react-app/static/css/main.fc7440b7.css.map",
     "main.c5c000f9.js.map": "/korobkov-react-app/static/js/main.c5c000f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.32799bd8.css",
+    "static/css/main.fc7440b7.css",
     "static/js/main.c5c000f9.js"
   ]
 }
