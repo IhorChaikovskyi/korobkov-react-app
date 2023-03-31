@@ -8,6 +8,7 @@ export class Gallery extends React.Component<{},{}> {
   openFullImg = (src: any) => {
     const fullBox = document.getElementById('fullImgBox')
     const fullImg = document.getElementById('fullImg')
+    const bodyElement = document.getElementsByTagName('body')
     if(fullBox) {
       fullBox.style.display = "flex"
       fullBox.style.opacity = "1"
@@ -17,10 +18,10 @@ export class Gallery extends React.Component<{},{}> {
       fullImg.style.backgroundImage = `url(${src})`
     }
 
+    if(bodyElement) {
+      bodyElement[0].style.overflow = 'hidden';
+    }
 
-    
-    console.log(src);
-    
   }
   
   render() {
