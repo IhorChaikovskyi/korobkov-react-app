@@ -14,7 +14,7 @@
 }
 
 .img {
-  height: 500px;
+  transition: all 0.9s;
   width: 100vw;
   object-fit: contain;
   object-position: center;
@@ -23,15 +23,15 @@
 
     @media (min-width: 768px) {
       height: 360px;
-      width: 360px;
+      width: 360px; 
+      &:hover {
+        transform: scale(1.1);
+      }
     }
     @media (min-width: 1200px) {
       height: 380px;
       width: 380px;
     }
 
-  &:hover {
-    transform: scale(1.1);
-
-  }
+    
 }

@@ -1,0 +1,32 @@
+.full-img {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 100;
+
+  &__item {
+    width: 90%;
+    height: 85%;
+    max-width: 500px;
+    transition: all 0.9s;
+    background-image: url("../../img/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &__description {
+    color: aliceblue;
+    display: block;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+}
