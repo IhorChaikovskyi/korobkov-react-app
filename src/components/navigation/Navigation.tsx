@@ -2,35 +2,38 @@
 import "./Navigation.scss"
 import { Link } from 'react-router-dom';
 
+const navigationContent = [
+  {name: 'Work',to: '/'},
+  {name: 'CV',to: '/'},
+  {name: 'News',to: '/'},
+  {name: 'Contact-us',to: '/contact'},
+]
+
 
 export const Navigation = (
   { isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: (isOpen: boolean) => void
 }) =>{
   return (
-    <div className="wrap-container">
-      <nav 
-        className={`navigation ${isOpen ? 'active' : ''}`}
-        id="navigation">
-        <ul className="list">
-          <li className="list__item">
-            <Link to="/" className="list__item-link">Work</Link>
-          </li>
-          <li className="list__item">
-            <a href="/" className="list__item-link">SV</a>
-          </li>
-          <li className="list__item">
-            <a href="/" className="list__item-link">News</a>
-          </li>
-          <li className="list__item">
+    <nav 
+    className={`navigation ${isOpen ? 'active' : ''}`}
+    id="navigation"
+    >
+      <ul className="list">
+        {navigationContent.map(nav => (
+          <li 
+            className="list__item"
+            key={nav.name}
+          >
             <Link 
-            to="/contact"
-            className="list__item-link"
-            onClick={() => setIsOpen(false)}
+              to={`${nav.to}`}
+              className="list__item-link"
+              onClick={() => setIsOpen(false)}
             >
-              Contact</Link>
+              {nav.name}
+            </Link>
           </li>
-        </ul>
-      </nav>
-    </div>
+        ))}
+      </ul>
+    </nav>
   )
 }
