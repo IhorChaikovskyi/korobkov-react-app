@@ -12,7 +12,7 @@ export const Main = () => {
       <main className="main">
         <Routes>
           <Route 
-            path='/'
+            path='/korobkov-react-app/'
             element={<Gallery />}
           />
 
