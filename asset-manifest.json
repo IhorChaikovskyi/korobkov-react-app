@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/korobkov-react-app/static/css/main.8b0a287a.css",
-    "main.js": "/korobkov-react-app/static/js/main.e7252d6e.js",
+    "main.css": "/korobkov-react-app/static/css/main.d2839d44.css",
+    "main.js": "/korobkov-react-app/static/js/main.a4642bc9.js",
     "static/media/25.jpg": "/korobkov-react-app/static/media/25.1490990df15430d7c269.jpg",
     "static/media/44.jpg": "/korobkov-react-app/static/media/44.a8a376072064a9fc8a48.jpg",
     "static/media/45.jpg": "/korobkov-react-app/static/media/45.e516128a087fd484b58b.jpg",
@@ -50,11 +50,11 @@
     "static/media/Gilroy-Regular.eot": "/korobkov-react-app/static/media/Gilroy-Regular.19055ba082a9f78262f6.eot",
     "static/media/svgkorb.svg": "/korobkov-react-app/static/media/svgkorb.28936113551eecfb2e58.svg",
     "index.html": "/korobkov-react-app/index.html",
-    "main.8b0a287a.css.map": "/korobkov-react-app/static/css/main.8b0a287a.css.map",
-    "main.e7252d6e.js.map": "/korobkov-react-app/static/js/main.e7252d6e.js.map"
+    "main.d2839d44.css.map": "/korobkov-react-app/static/css/main.d2839d44.css.map",
+    "main.a4642bc9.js.map": "/korobkov-react-app/static/js/main.a4642bc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b0a287a.css",
-    "static/js/main.e7252d6e.js"
+    "static/css/main.d2839d44.css",
+    "static/js/main.a4642bc9.js"
   ]
 }
