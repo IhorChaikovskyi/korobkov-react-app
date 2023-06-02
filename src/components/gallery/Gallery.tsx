@@ -1,12 +1,9 @@
-import React from 'react';
 import './Gallery.scss';
 import { MyGallery } from '../myGallery/MyGallery';
 
 
-export class Gallery extends React.Component<{},{}> {  
-  render() {
-    return(
-      <MyGallery />
-    )
-}
+export const Gallery = () => {  
+  return(
+    <MyGallery />
+  )
 }

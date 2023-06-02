@@ -1,0 +1,27 @@
+.cv {
+  position: relative;
+  @media (max-width: 768px) {
+    padding: 0 77px;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__language{
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+
+  &__language-item {
+
+    &.active{
+      border-bottom: solid 1px #000;
+      font-weight: bold;
+    }
+  }
+}
+
+
+

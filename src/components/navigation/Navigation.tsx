@@ -1,10 +1,9 @@
-
 import "./Navigation.scss"
 import { Link } from 'react-router-dom';
 
 const navigationContent = [
   {name: 'Work',to: '/'},
-  {name: 'CV',to: '/'},
+  {name: 'CV',to: '/cv'},
   {name: 'News',to: '/'},
   {name: 'Contact-us',to: '/contact'},
 ]
@@ -15,8 +14,8 @@ export const Navigation = (
 }) =>{
   return (
     <nav 
-    className={`navigation ${isOpen ? 'active' : ''}`}
-    id="navigation"
+      className={`navigation ${isOpen ? 'active' : ''}`}
+      id="navigation"
     >
       <ul className="list">
         {navigationContent.map(nav => (

@@ -10,14 +10,14 @@ export const MyGallery = () => (
       {galleryImg.map(img => {
           return(
             <Item
-              original={require(`../../${img.src}`)}
+              original={require(`../../img/${img.src}`)}
               width="1208"
               height="1611"
               caption={img.description}
               key={img.id}
             >
             {({ ref, open }) => (
-              <img ref={ref} onClick={open} src={require(`../../${img.src}`)}  className="img"/>
+              <img ref={ref} onClick={open} src={require(`../../img/cropped/${img.src}`)}  className="img"/>
             )}
           </Item>
           )})
