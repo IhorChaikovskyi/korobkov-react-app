@@ -4,6 +4,7 @@ import './Main.scss'
 import { Route, Routes } from "react-router-dom";
 import { Contact } from "../contact/Contact";
 import { Cv } from "../cv/Cv";
+import { WorksList } from "../wokrsList/WorksList";
 
 
 export const Main = () => {
@@ -14,6 +15,10 @@ export const Main = () => {
           <Route 
             path='/'
             element={<Gallery />}
+          />
+          <Route 
+            path='works-list'
+            element={<WorksList/>}
           />
 
           <Route 

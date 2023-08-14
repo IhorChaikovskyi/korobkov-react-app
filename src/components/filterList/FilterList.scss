@@ -1,0 +1,35 @@
+.filter-list {
+  list-style: none;
+  padding: 0;
+
+  &__item {
+    margin: 0  0  20px  0 ;
+    cursor: pointer;
+
+    &--active {
+      
+    }
+  }
+
+
+  &__item-title {
+    display: block;
+    width: max-content;
+    cursor: pointer;
+    margin: 0;
+    padding: 0  0  20px  0;
+
+    &--active {
+      border-bottom: 2px solid black;
+    }
+  }
+  
+  &__sublist {
+    margin-top: 20px;
+    list-style: none;
+  }
+
+  &__subitem {
+    padding-bottom: 20px;
+  }
+}

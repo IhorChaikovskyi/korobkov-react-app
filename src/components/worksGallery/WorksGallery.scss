@@ -1,0 +1,38 @@
+.worksGallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100vw, 1fr));
+
+  @media (min-width: 768px){
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  }
+
+  &__item {
+    justify-self: center;
+  }
+  color: black;
+}
+
+.worksGallery-img {
+  transition: all 0.9s;
+  width: 100vw;
+  object-fit: contain;
+  object-position: center;
+  margin: 20px 0;
+  transition: all 0.5s;
+
+    @media (min-width: 768px) {
+      height: 360px;
+      width: 360px;
+      margin: 20px 0;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    @media (min-width: 1200px) {
+      height: 300px;
+      width: 300px;
+    }
+
+    
+}

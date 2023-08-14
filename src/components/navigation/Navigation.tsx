@@ -2,7 +2,7 @@ import "./Navigation.scss"
 import { Link } from 'react-router-dom';
 
 const navigationContent = [
-  {name: 'Work',to: '/'},
+  {name: 'Works',to: '/works-list'},
   {name: 'CV',to: '/cv'},
   {name: 'News',to: '/'},
   {name: 'Contact-us',to: '/contact'},

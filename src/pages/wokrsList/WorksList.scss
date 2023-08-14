@@ -1,0 +1,15 @@
+.works-list {
+  &__wrap {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  &__filter {
+    width: calc(13%);
+  }
+
+  &__main {
+    width: calc(87%);
+  }
+}

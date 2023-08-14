@@ -18,11 +18,12 @@ export const InUkrainian = () => (
 
         <strong>Персональні:</strong>:
         <ul className="cv__list">
-          <li className="cv__list-item">- 08.2022 gallery OKiS, Wroclaw, Poland;</li>
-          <li className="cv__list-item">- 2022 Хмельницький обласний художній музей, Хмельницький , Україна;</li>
+          <li className="cv__list-item">- 06. 2023 галерея Circulo de la Amistad, Кордоба, Іспанія </li>
+          <li className="cv__list-item">- 08. 2022 галерея OKiS, Wroclaw, Poland;</li>
+          <li className="cv__list-item">- 07. 2022 Хмельницький обласний художній музей, Хмельницький , Україна;</li>
           <li className="cv__list-item">- 2019 Представництво НАТО в Україні, Київ;</li>
-          <li className="cv__list-item">- 2017 Хмельницький;</li>
-          <li className="cv__list-item">- 2013 Львів музей сучасного мистецтва, Львів, Україна.</li>
+          <li className="cv__list-item">- 09. 2017 Арт кафе "КаваЛава", Хмельницький, Україна;</li>
+          <li className="cv__list-item">- 05. 2013 Львівський музей сучасного мистецтва, Львів, Україна.</li>
         </ul>
   </div>
 )

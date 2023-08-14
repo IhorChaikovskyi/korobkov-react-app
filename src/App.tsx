@@ -15,6 +15,8 @@ function App() {
   const handleScrollToTop = () => (
     app.current?.scrollTo({ top: 0, behavior: 'smooth' })
   )
+
+
   const handleScroll = (event: any) => {
     if (app && app.current) {
       if (app.current.scrollTop > 500) {
