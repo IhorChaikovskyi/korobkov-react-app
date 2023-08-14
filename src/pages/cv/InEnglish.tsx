@@ -17,10 +17,12 @@ export const InEnglish = () => (
 
         <strong>Personal</strong>: 
         <ul className="cv__list">
+          <li className="cv__list-item">- 06.2023 gallery Circulo de la Amistad, Cordoba, Spain </li>
           <li className="cv__list-item">- 08.2022 gallery OKiS, Wroclaw, Poland;</li>
           <li className="cv__list-item">- 2022 Khmelnytskyi regional museum of art, Khmelnytskyi, Ukraine;</li>
           <li className="cv__list-item">- 2019 NATO liaison oce in Ukraine, Kyiv, Ukraine;</li>
-          <li className="cv__list-item">- 2013 Lviv modern art museum, Lviv, Ukraine.</li>
+          <li className="cv__list-item">- 09.2017 Art cafe "KavaLava", Khmelnitskiy, Ukraine;</li>
+          <li className="cv__list-item">- 05.2013 Lviv modern art museum, Lviv, Ukraine.</li>
         </ul>
   </div>
 )

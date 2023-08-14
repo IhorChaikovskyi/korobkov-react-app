@@ -14,7 +14,7 @@ export const Header =  ({ setIsOpen, isOpen }: Props) =>  {
     style={{paddingRight: isOpen ? scrollWidth : '0'}}
     >
       <div className="header__wrap">
-        <a href="/korobkov-react-app/">
+        <a href="/">
           <div className="header__img">
           
           </div>

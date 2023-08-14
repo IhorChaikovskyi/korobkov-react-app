@@ -3,183 +3,228 @@
 export const galleryImg = [
   {id:1,
   src: '1.jpg',
-  description: '“Black flowers”, 2023, oil on canvas, 120x95 cm'
+  description: '“Black flowers”, 2023, oil on canvas, 120x95 cm',
+  type: 'painting'
   },
   {id:2,
   src: '2.jpg',
-  description: '“Black flowers”, 2023, oil on canvas, 120x95 cm'
+  description: '“Black flowers”, 2023, oil on canvas, 120x95 cm',
+  type: 'painting'
   },
   {id:3,
   src: '3.jpg',
-  description: '“Podolyanka”, 2023, oil on canvas, 120x100 cm'
+  description: '“Podolyanka”, 2023, oil on canvas, 120x100 cm',
+  type: 'painting'
   },
   {id:4,
   src: '4.jpg',
-  description: '“Podolyanka1”, 2023, canvas, acrylic, oil, spray, 80x75 cm'
+  description: '“Podolyanka1”, 2023, canvas, acrylic, oil, spray, 80x75 cm',
+  type: 'painting',
   },
   {id:5,
   src: '5.jpg',
-  description: '“Podolyanka2”, 2023, canvas, acrylic, oil, spray, 80x75 cm'
+  description: '“Podolyanka2”, 2023, canvas, acrylic, oil, spray, 80x75 cm',
+  type: 'painting',
   },
   {id:6,
   src: '6.jpg',
-  description: '“Podolyanka3”, 2023, canvas, acrylic, oil, spray, 80x70 cm'
+  description: '“Podolyanka3”, 2023, canvas, acrylic, oil, spray, 80x70 cm',
+  type: 'painting',
   },
   {id:7,
   src: '7.jpg',
-  description: '“Cabaret in Podilia”, 2023, canvas, acrylic, oil, spray, 80x70 cm'
+  description: '“Cabaret in Podilia”, 2023, canvas, acrylic, oil, spray, 80x70 cm',
+  type: 'painting',
   },
   {id:8,
   src:'8.jpg',
-  description: '“Family”, 2023, canvas, acrylic, oil, spray, 80x65 cm '
+  description: '“Family”, 2023, canvas, acrylic, oil, spray, 80x65 cm ',
+  type: 'painting',
   },
   {id:9,
   src: '9.jpg',
-  description: '“Sympatia”, 2023, canvas, acrylic, oil, spray, 115x90 cm'
+  description: '“Sympatia”, 2023, canvas, acrylic, oil, spray, 115x90 cm',
+  type: 'painting',
   },
   {id:10,
   src: '10.jpg',
-  description: '“Sasha”, 2023, canvas, acrylic, oil, spray, 80x65 cm'
+  description: '“Sasha”, 2023, canvas, acrylic, oil, spray, 80x65 cm',
+  type: 'painting',
   },
   {id:11,
   src: '11.jpg',
-  description: '“Lucretia”, 2022, canvas, acrylic, oil, spray, 80x65 cm'
+  description: '“Lucretia”, 2022, canvas, acrylic, oil, spray, 80x65 cm',
+  type: 'painting',
   },
   {id:12,
   src: '12.jpg',
-  description: '“Bulvarno-Kudriavska Street, 34”, 2022, canvas, acrylic, oil, spray, 80x65 cm'
+  description: '“Bulvarno-Kudriavska Street, 34”, 2022, canvas, acrylic, oil, spray, 80x65 cm',
+  type: 'painting',
   },
   {id:13,
   src: '13.jpg',
-  description: 'Michael Korobkov, Liza Obukhovska, “Destruction/Activation”, 2022, canvas, textile, collage, acrylic, oil, spray, 200x350 cm '
+  description: 'Michael Korobkov, Liza Obukhovska, “Destruction/Activation”, 2022, canvas, textile, collage, acrylic, oil, spray, 200x350 cm ',
+  type: 'painting',
   },
   {id:14,
   src: '14.jpg',
-  description: 'Michael Korobkov, Liza Obukhovska, “Destruction/Activation”, 2022, plywood, canvas, textile, collage, acrylic, spray, 180x80 cm  '
+  description: 'Michael Korobkov, Liza Obukhovska, “Destruction/Activation”, 2022, plywood, canvas, textile, collage, acrylic, spray, 180x80 cm',
+  type: 'sculpture',
   },
   {id:15,
   src: '15.jpg',
-  description: '“Destruction”, 2022, canvas, acrylic, spray, 120x80 cm '
+  description: '“Destruction”, 2022, canvas, acrylic, spray, 120x80 cm',
+  type: 'painting',
   },
   {id:16,
   src: '16.jpg',
-  description: '“Memento mori”, 2022, canvas, acrylic, oil, spray, 95x85 cm  '
+  description: '“Memento mori”, 2022, canvas, acrylic, oil, spray, 95x85 cm',
+  type: 'painting',
   },
   {id:17,
   src: '17.jpg',
-  description: '“Destruction”, 2022, silkscreen, 5 layers, astroprint paper, 280 g., limited edition of 50, 70x50 cm  '
+  description: '“Destruction”, 2022, silkscreen, 5 layers, astroprint paper, 280 g., limited edition of 50, 70x50 cm',
+  type: 'silk-screen'
   },
   {id:18,
   src: '18.jpg',
-  description: '“Reflection”, 2022, silkscreen, 2 layers, dali camoscio paper, 285 g., limited edition of 50, 70x50 cm'
+  description: '“Reflection”, 2022, silkscreen, 2 layers, dali camoscio paper, 285 g., limited edition of 50, 70x50 cm',
+  type: 'silk-screen'
   },
   {id:19,
   src: '19.jpg',
-  description: '“Destruction 4”, 2022, canvas, acrylic, spray, 95x85 cm '
+  description: '“Destruction 4”, 2022, canvas, acrylic, spray, 95x85 cm ',
+  type: 'painting',
   },
   {id:20,
   src: '20.jpg',
-  description: '“Destruction 2”, 2022, canvas, acrylic, oil, spray, 100x90 cm'
+  description: '“Destruction 2”, 2022, canvas, acrylic, oil, spray, 100x90 cm',
+  type: 'painting',
   },
   {id:21,
   src: '21.jpg',
-  description: '“Destruction 3”, 2022, canvas, acrylic, oil, spray, 100x90 cm '
+  description: '“Destruction 3”, 2022, canvas, acrylic, oil, spray, 100x90 cm ',
+  type: 'painting',
   },
   {id:22,
   src: '22.jpg',
-  description: '“Stop”, 2022, canvas, acrylic, oil, spray, 110x90 cm'
+  description: '“Stop”, 2022, canvas, acrylic, oil, spray, 110x90 cm',
+  type: 'painting',
   },
   {id:23,
   src: '23.jpg',
-  description: '“Print”, 2022, canvas, collage, oil, 139x123 cm'
+  description: '“Print”, 2022, canvas, collage, oil, 139x123 cm',
+  type: 'painting',
   },
   {id:24,
   src: '24.jpg',
-  description: '“Sculpture 1”, 2022, air hardening modeling clay, acrylic, spray, flower, 40x25 cm'
+  description: '“Sculpture 1”, 2022, air hardening modeling clay, acrylic, spray, flower, 40x25 cm',
+  type: 'sculpture',
   },
   {id:25,
   src: '25.jpg',
-  description: '“Dasein”, 2021, canvas, acrylic, spray, 150x120 cm'
+  description: '“Dasein”, 2021, canvas, acrylic, spray, 150x120 cm',
+  type: 'painting',
   },
   {id:26,
   src: '26.jpg',
-  description: '“Sculpture 2”, 2021, gypsum,  marble, 30x30 cm'
+  description: '“Sculpture 2”, 2021, gypsum,  marble, 30x30 cm',
+  type: 'sculpture',
   },
   {id:27,
   src: '27.jpg',
-  description: '“Go where it’s scary”, 2022, canvas, oil, 200x160 cm'
+  description: '“Go where it’s scary”, 2022, canvas, oil, 200x160 cm',
+  type: 'painting',
   },
   {id:28,
   src: '28.jpg',
-  description: '“Skin”, 2022, canvas, acrylic, oil, 120x100 cm'
+  description: '“Skin”, 2022, canvas, acrylic, oil, 120x100 cm',
+  type: 'painting',
   },
   {id:29,
   src: '29.jpg',
-  description: '“Children of nature”, 2022, canvas, collage, acrylic, oil, spray, 130x115 cm'
+  description: '“Children of nature”, 2022, canvas, collage, acrylic, oil, spray, 130x115 cm',
+  type: 'painting',
   },
   {id:30,
   src: '30.jpg',
-  description: '“Collage”, 2022, canvas, oil, 160x120 cm'
+  description: '“Collage”, 2022, canvas, oil, 160x120 cm',
+  type: 'painting',
   },
   {id:31,
   src: '31.jpg',
-  description: '“Architecture 1”, 2020, canvas, collage, acrylic, oil, 120x90 cm'
+  description: '“Architecture 1”, 2020, canvas, collage, acrylic, oil, 120x90 cm',
+  type: 'painting',
   },
   {id:32,
   src: '32.jpg',
-  description: '“Architecture 2”, 2020, canvas, collage, acrylic, oil, 120x90 cm'
+  description: '“Architecture 2”, 2020, canvas, collage, acrylic, oil, 120x90 cm',
+  type: 'painting',
   },
   {id:33,
   src: '33.jpg',
-  description: '“Czech magazine”, 2021, canvas, collage, acrylic, oil, 130x100 cm'
+  description: '“Czech magazine”, 2021, canvas, collage, acrylic, oil, 130x100 cm',
+  type: 'painting',
   },
   {id:34,
   src: '34.jpg',
-  description: '“Nose”, 2022, air hardening modeling clay, acrylic, spray, 16x10 cm'
+  description: '“Nose”, 2022, air hardening modeling clay, acrylic, spray, 16x10 cm',
+  type: 'sculpture',
   },
   {id:35,
   src: '35.jpg',
-  description: '“Red”, 2022, air hardening modeling clay, acrylic, spray, 18x14 cm'
+  description: '“Red”, 2022, air hardening modeling clay, acrylic, spray, 18x14 cm',
+  type: 'sculpture',
   },
   {id:36,
   src: '36.jpg',
-  description: '“Untitled 1”, 2020, canvas, acrylic, spray, 110x75 cm'
+  description: '“Untitled 1”, 2020, canvas, acrylic, spray, 110x75 cm',
+
   },
   {id:37,
   src: '37.jpg',
-  description: '“Untitled 2”, 2020, canvas, acrylic, spray, 110x75 cm'
+  description: '“Untitled 2”, 2020, canvas, acrylic, spray, 110x75 cm',
+  type: 'painting',
   },
   {id:38,
   src: '38.jpg',
-  description: '“Zebra”, 2020, canvas, acrylic, spray, 138x112 cm'
+  description: '“Zebra”, 2020, canvas, acrylic, spray, 138x112 cm',
+  type: 'painting',
   },
   {id:39,
   src: '39.jpg',
-  description: '“Bird”, 2020, canvas, acrylic, oil, spray, 120x100 cm'
+  description: '“Bird”, 2020, canvas, acrylic, oil, spray, 120x100 cm',
+  type: 'painting',
   },
   {id:40,
   src: '40.jpg',
-  description: '“Bakota, carpet”, 2020, canvas, acrylic, spray, 120x100 cm'
+  description: '“Bakota, carpet”, 2020, canvas, acrylic, spray, 120x100 cm',
+  type: 'painting',
   },
   {id:41,
   src: '41.jpg',
-  description: '“Bakota, carpet 2”, 2020, canvas, collage, acrylic, spray, 120x100 cm'
+  description: '“Bakota, carpet 2”, 2020, canvas, collage, acrylic, spray, 120x100 cm',
+  type: 'painting',
   },
   {id:42,
   src: '42.jpg',
-  description: '“Bakota, cypress”, 2020, canvas, collage, acrylic, spray'
+  description: '“Bakota, cypress”, 2020, canvas, collage, acrylic, spray',
+  type: 'painting',
   },
   {id:43,
   src: '43.jpg',
-  description: '“Bakota 3”, 2020, canvas, collage, acrylic, spray'
+  description: '“Bakota 3”, 2020, canvas, collage, acrylic, spray',
+  type: 'painting',
   },
   {id:44,
   src: '44.jpg',
-  description: '“Bakota”, 2020, mural, acrylic, spray'
+  description: '“Bakota”, 2020, mural, acrylic, spray',
+  type: 'street-art',
   },
   {id:45,
   src: '45.jpg',
-  description: '“Dollar, corona”, 2020, canvas, acrylic, oil, spray, 200x225 cm'
+  description: '“Dollar, corona”, 2020, canvas, acrylic, oil, spray, 200x225 cm',
+  type: 'painting',
   },
   
 ]
